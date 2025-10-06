@@ -4,7 +4,7 @@ require('dotenv').config()
 
 module.exports = defineConfig({
   e2e: {
-    baseUrl: 'http://localhost',
+    baseUrl: 'http://localhost:80',
 
     env: {
       apiUrl: 'https://gitlab.com/api/v4',
